@@ -83,7 +83,7 @@ a {
 }
 
 .wordpress {
-    background: url("../images/wordpress.jpg");
+    background: url("/blog/images/wordpress.jpg");
     background-size: cover;
 }
 

@@ -455,11 +455,13 @@ body.dark-mode {
 }
 
 body.dark-mode h2, 
-body.dark-mode p {
+body.dark-mode p,
+body.dark-mode li {
     color: #fff !important;
 }
 
-body.dark-mode p {
+body.dark-mode p,
+body.dark-mode li {
     opacity: .9;
 }
 
