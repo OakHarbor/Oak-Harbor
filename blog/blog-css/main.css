@@ -8,6 +8,11 @@ pre {
     max-height: 300px;
 }
 
+.bold {
+    color: var(--primary);
+    font-weight: bold;
+}
+
 .code-h2 {
     margin: 50px 0 10px;
 }
@@ -22,7 +27,8 @@ pre {
 }
 
 a {
-    text-decoration: none;
+    text-decoration: underline;
+    color: var(--primary);
 }
 
 #side-bar .button-solid {
@@ -67,6 +73,11 @@ a {
 
 .deck {
     background: url("../images/deck.jpg");
+    background-size: cover;
+}
+
+.wordpress {
+    background: url("../images/wordpress.jpg");
     background-size: cover;
 }
 

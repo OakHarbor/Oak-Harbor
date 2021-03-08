@@ -9,6 +9,11 @@
 	        box-sizing: border-box;
 }
 
+.bold {
+    font-weight: bold;
+    color: var(--primary);
+}
+
 .promotion {
     background: var(--primary);
     text-align: center;
@@ -29,11 +34,11 @@ body, html {
 	overflow-x: hidden !important;
 }
 
-p {
+p, p span {
 	line-height: 1.6em;
 }
 
-p, a, li {
+p, a, li, p span {
 	font-family: 'Montserrat', sans-serif;
 	color: #4c4c4c;
 	margin: 0;

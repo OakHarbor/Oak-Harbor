@@ -126,6 +126,32 @@
             <article class="blog">
                 <div class="blog__post container">
                     <div class="blog__post--header">
+                        <div aria-label="picture of a bare brick wall" class="main-image wordpress"></div>
+                        <h1>What is the difference between hand coded websites and Wordpress sites?</h1>
+                        <div class="blog__post--info">
+                            <img aria-hidden="true" src="/blog/images/Ryan_Postell_Headshot.jpg" alt="Ryan Postell">
+                            <div class="blog__post--profile">
+                                <h3>Ryan Postell</h3>
+                                <a href="#">March 7, 2021</a><br>
+                            </div>
+                        </div>
+                    </div>
+                    <div aria-hidden="true" class="line"></div>
+                    <p>What makes the websites I build special and unique compared to using a page builder like Wordpress?  It all comes down to how they are made, and how that affects load times, user retention, and your search rankings...
+                    </p>
+                    <button class="button-solid" onclick="location.href='/blog/articles/what-is-the-difference-between-hand-coded-websites-and-wordpress-sites.html#blog-post'" type="button">
+                        Read More
+                    </button>
+                </div>
+            </article>
+
+            <!-- ============================================ -->
+            <!--                 BLOG CONTENT                 -->
+            <!-- ============================================ -->
+            
+            <article class="blog">
+                <div class="blog__post container">
+                    <div class="blog__post--header">
                         <div aria-label="picture of a bare brick wall" class="main-image christmas"></div>
                         <h1>Christmas Yearly Recap</h1>
                         <div class="blog__post--info">
@@ -177,38 +203,8 @@
         <!-- ============================================ -->
 
         <section id="side-bar" class="container">
-            <div class="recent-posts">
-                <p class="popular">Popular Posts</p>
-                <div class="recent-posts__item">
-                    <img src="images/brick-wall-square.jpg" alt="">
-                    <div class="recent-posts__item__content">
-                        <h2><a href="2020/December/how-to-add-dark-mode-to-a-website.html#blog-post">How to add dark mode to a custom website</a></h2>
-                        <p>Ryan Postell</p>
-                        <p>December 15, 2020</p>
-                    </div>
-                </div>
-                <div class="recent-posts__item">
-                    <img src="images/christmas-square.jpg" alt="">
-                    <div class="recent-posts__item__content">
-                        <h2><a href="2020/December/christmas-yearly-recap.html#blog-post">Christmas Yearly Recap</a></h2>
-                        <p>Ryan Postell</p>
-                        <p>December 25, 2020</p>
-                    </div>
-                </div>
-
-                <div class="months">
-                    <h3>Archives</h3>
-                    <p>2020</p>
-                    <a href="/blog/2020/December/december.html">December</a>
-                </div>
-            </div>
-            <div class="ads">
-                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                <!-- Sidebar Ad -->
-                <ins class="adsbygoogle" style="display:inline-block;width:274px;height:300px" data-ad-client="ca-pub-9902602223629429" data-ad-slot="2589732640"></ins>
-                <script>
-                    (adsbygoogle = window.adsbygoogle || []).push({});
-                </script>
+            <div w3-include-html="/blog/includes/sidebar.html">
+                
             </div>
         </section>
     </main>
