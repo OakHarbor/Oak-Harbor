@@ -8,6 +8,12 @@ pre {
     max-height: 300px;
 }
 
+li {
+    margin-bottom: 10px !important;
+    font-size: .9em !important;
+    font-weight: 500;
+}
+
 .bold {
     color: var(--primary);
     font-weight: bold;
